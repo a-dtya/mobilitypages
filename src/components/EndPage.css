@@ -1,0 +1,7 @@
+shadow-button {
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+  }
+  
+.shadow-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add the shadow on hover */
+}

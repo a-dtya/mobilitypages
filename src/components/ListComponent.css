@@ -1,0 +1,11 @@
+/* styles.css or any other CSS file */
+/* Define a class for smaller font size */
+
+  
+  /* Define a media query to apply the smaller font size on smaller screens */
+  @media (max-width: 576px) {
+    .smaller-font {
+      font-size: 0.875rem; /* Adjust the font size for smaller screens */
+    }
+  }
+  
