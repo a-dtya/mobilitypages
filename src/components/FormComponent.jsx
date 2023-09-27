@@ -8,7 +8,7 @@ const TForm = ({ company }) => {
   const [resume, setResume] = useState(null);
   const [selectedRoles, setSelectedRoles] = useState([]);
   const [showMaxRolesMessage, setShowMaxRolesMessage] = useState(false);
-  
+  const k;
   const handleFormSubmit = (e) => {
     e.preventDefault();
     const config = {
@@ -44,7 +44,7 @@ const TForm = ({ company }) => {
           setShowMaxRolesMessage(false);
         }, 3000);
       }
-
+    
     }
   };
   
