@@ -1,0 +1,18 @@
+/* Default styles for larger screens */
+/* Default styles for larger screens */
+.heading {
+    color: #226393;
+    font-weight: lighter;
+    font-size: 9.8rem;
+    letter-spacing: 0.1rem;
+    
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+  }
+  
+  

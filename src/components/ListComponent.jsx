@@ -77,9 +77,9 @@ export default function ListComponent({title,desc,cat,loc,linkd}) {
             <div className='p-0 m-0'></div>
         )
     }
-    
-        <div style={{ width: '40rem', height: '8rem', border: '0.1rem solid #ccc',borderRadius:'0.3rem', padding: '1rem', position: 'relative' }}>
-        <div onClick={(e)=>openModal(e)} className='d-flex flex-column justify-content-start align-items-start'>
+   
+        <div onClick={(e)=>openModal(e)}style={{ width: '40rem', height: '8rem', border: '0.1rem solid #ccc',borderRadius:'0.3rem', padding: '1rem', position: 'relative' }}>
+        <div  className='d-flex flex-column justify-content-start align-items-start'>
             <h4  className='smaller-font' style={headingStyle} onMouseEnter={(e)=>handleHeadingHover(e)} onMouseLeave={handleHeadingLeave}>
                 {title}
             </h4>
@@ -87,6 +87,7 @@ export default function ListComponent({title,desc,cat,loc,linkd}) {
         </div>    
             <p style={{ marginTop: '0.5rem',color:'#6b7f95' }}>{truncatedText}{"..."}</p>
         </div>
+        
 
     </>
   )

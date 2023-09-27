@@ -4,6 +4,7 @@ import producthunt from '../images/product-hunt.avif'
 import mobpages from '../images/mob-pages.png'
 import linkedin from '../images/linkedin.png'
 import substack from '../images/substack.png'
+import producthunt1 from '../images/producthunt.avif'
 export default function Footer() {
     const handleProductHunt = ()=>{
         window.open("https://www.producthunt.com/products/mobility-pages?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-mobility-pages",
@@ -24,29 +25,23 @@ export default function Footer() {
     <>
         <Container style={{height:'40vh',padding:'0'}}>
             <Row className='d-flex align-items-center w-100'>
+           
                 <Col className='d-flex align-items-center justify-content-center'>
-                <div 
-                    style={{borderStyle:'solid',borderRadius:'0.3rem',borderWidth:'0.03rem',borderColor:'#d95538',height:'3rem',padding:'0.4rem',width:'auto'
-                }}>
-                    <img
-                        src={producthunt}
-                        alt='producthunt'
-                        style={{height:'auto',width:'11rem',marginRight:'3rem',cursor:'pointer'}}
-                        onClick={handleProductHunt}
-                    />
-                </div>
-                </Col>
-                <Col className='d-flex align-items-center justify-content-center'>
-                    <img
-                        src={mobpages}
-                        alt='mobpages'
-                        style={{height:'auto',width:'11rem',marginRight:'3rem',marginTop:'0.6rem',cursor:'pointer'}}
-                       
-                    />
+                <img
+                  src={mobpages}
+                  alt='mobpages'
+                  style={{ height: 'auto', width: '11rem', marginTop: '0.6rem', cursor: 'pointer' }}
+                />
                 </Col>
             </Row>
             <Row >
                 <Col className='d-flex justify-content-center align-items-center mt-5'>
+                <img
+                        src={producthunt1}
+                        alt='producthunt1'
+                        style={{height:'auto',width:'2.5rem',marginRight:'1.2rem',cursor:'pointer'}}
+                        onClick={handleProductHunt}
+                    />
                     <img
                         src={linkedin}
                         alt='linkedin'

@@ -1,0 +1,28 @@
+/* Add this CSS to your stylesheet or inl/* Add this CSS to your stylesheet or inline style
+/* Add this CSS to your stylesheet or inline styles */
+/* CSS for screens over 443px */
+/* CSS for screens 442 pixels and larger */
+/* CSS for screens 442 pixels and larger */
+/* Default styles for larger screens */
+/* Default styles for larger screens */
+/* Default styles for larger screens */
+.custom-styles {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  justify-content: center;
+  margin-bottom: 0;
+  word-spacing: -0.15rem;
+  text-align: justify;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .custom-styles {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+    word-spacing: normal; /* Reset word spacing */
+    text-align: left; /* Left-align text for better readability */
+    line-height: 1.5; /* Adjust line height for better spacing */
+    max-width: 100%; /* Allow text to take the full width */
+    width: 100%; /* Allow text to take the full width */
+  }
+}
